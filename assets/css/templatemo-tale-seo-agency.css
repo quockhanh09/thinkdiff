@@ -100,7 +100,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #afafaf;
+  color: #6c6868f2;
 }
 
 img {
@@ -828,12 +828,12 @@ Banner Style
 }
 
 .main-banner:after {
-  content: url(../images/banner-right.png);
+  content: url(../images/banner-r2.png);
   top: -1px;
   right: 0;
   position: absolute;
   width: 861px;
-  height: 746px;
+  height: 1000px;
   z-index: -1;
 }
 
@@ -848,6 +848,13 @@ Banner Style
 }
 
 .main-banner h6 {
+  font-size: 20px;
+  color: #5b03e4;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-banner h5{
   font-size: 20px;
   color: #5b03e4;
   text-transform: uppercase;
@@ -1249,6 +1256,7 @@ Contact Style
   background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
   border-radius: 0px 0px 23px 23px;
   padding: 45px 30px 15px 30px;
+  color: #e0e0e0;
 }
 
 .contact-us-content .more-info .info-item {
