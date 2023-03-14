@@ -354,7 +354,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  margin-top: 25px;
+  margin-top: 0;
   flex-basis: 20%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -822,10 +822,12 @@ Header Style
 Banner Style
 --------------------------------------------- 
 */
-
+.logo h1 img{
+  width: 230px;
+}
 .main-banner {
   position: relative;
-  padding: 295px 0px 185px 0px;
+  padding: 250px 0px 185px 0px;
 }
 
 .main-banner:after {
