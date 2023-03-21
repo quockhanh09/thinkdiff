@@ -1257,7 +1257,7 @@ Contact Style
   text-align: center;
   background: rgb(85,0,227);
   background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
-  border-radius: 0px 0px 23px 23px;
+  border-radius: 23px;
   padding: 45px 30px 15px 30px;
   color: #e0e0e0;
 }
